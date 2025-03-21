@@ -9,14 +9,14 @@ const AboutWave = () => {
     <motion.div 
       transition={{ duration: 0.8 }}
       viewport={{ once: false, amount: 0.1 }}
-      className="relative w-full h-[60rem] bg-white py-12 px-4 md:px-8 lg:px-16 rounded-[50px]"
+      className="relative w-full h-[60rem] bg-[#F4F5F0] py-12 px-4 md:px-8 lg:px-16 rounded-t-[50px]"
     >
       {/* Large faint text in the background (only visible on large screens) */}
       <motion.h1 
         initial={{ opacity: 0, x: 100 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 1.2, delay: 0.3 }}
-        className="hidden lg:block absolute -bottom-6 right-10 text-[8rem] xl:text-[280px] font-extrabold text-gray-50 tracking-widest pointer-events-none select-none"
+        className="hidden lg:block absolute -bottom-6 right-10 text-[8rem] xl:text-[280px] font-extrabold text-[#403A370A] tracking-widest pointer-events-none select-none"
       >
         WAVE
       </motion.h1>
