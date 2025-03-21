@@ -16,7 +16,7 @@ const AboutWave = () => {
         initial={{ opacity: 0, x: 100 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 1.2, delay: 0.3 }}
-        className="hidden lg:block absolute -bottom-6 right-10 text-[8rem] xl:text-[280px] font-extrabold text-gray-200 tracking-widest pointer-events-none select-none"
+        className="hidden lg:block absolute -bottom-6 right-10 text-[8rem] xl:text-[280px] font-extrabold text-gray-50 tracking-widest pointer-events-none select-none"
       >
         WAVE
       </motion.h1>
