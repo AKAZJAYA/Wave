@@ -1,16 +1,23 @@
-import React from 'react'
-import Header from '../components/Header'
-import Hero from '../components/Hero'
-import AboutWave from '../components/AboutWave'
+import React from "react";
+import Header from "../components/Header";
+import Hero from "../components/Hero";
+import AboutWave from "../components/AboutWave";
 
 const Home = () => {
   return (
-    <section>
-        <Header />
-        <Hero />
-        <AboutWave />
-    </section>
-  )
-}
+    <div>
+      <Header />
 
-export default Home
+      <section>
+        <Hero />
+      </section>
+
+      <section className="bg-black">
+        <AboutWave />
+      </section>
+
+    </div>
+  );
+};
+
+export default Home;
