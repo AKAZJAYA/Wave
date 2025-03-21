@@ -10,20 +10,20 @@ const Home = () => {
     <div>
       <Header />
 
-      <section>
+      <section id="home">
         <Hero />
       </section>
 
       <section className="bg-black">
-        <div>
+        <div id="about">
           <AboutWave />
         </div>
-        <div>
+        <div id="features">
           <Features />
         </div>
       </section>
 
-      <section className="bg-[#F4F5F0]">
+      <section id="products" className="bg-[#F4F5F0]">
         <Products />
       </section>
     </div>
