@@ -4,6 +4,8 @@ import Hero from "../components/Hero";
 import AboutWave from "../components/AboutWave";
 import Features from "../components/Features";
 import Products from "../components/Products";
+import FAQSection from "../components/FAQSection";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
@@ -26,6 +28,12 @@ const Home = () => {
       <section id="products" className="bg-[#F4F5F0]">
         <Products />
       </section>
+
+      <section id="faq">
+        <FAQSection />
+      </section>
+
+      <Footer />
     </div>
   );
 };
