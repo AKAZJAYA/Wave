@@ -112,7 +112,7 @@ const AboutWave = () => {
             initial={{ scale: 0.95 }}
             whileInView={{ scale: 1 }}
             transition={{ duration: 0.7 }}
-            className="rounded-xl overflow-hidden relative"
+            className="rounded-xl overflow-hidden"
           >
             <motion.img
               initial={{ filter: "brightness(0.8)" }}
@@ -120,7 +120,7 @@ const AboutWave = () => {
               transition={{ duration: 1.2 }}
               src={kitchenImage1}
               alt="Kitchen"
-              className="w-full h-auto xs:h-[300px] sm:h-[350px] md:h-[370px] md:w-[350px] lg:w-[450px] lg:h-[470px] 2xl:w-[600px] 2xl:h-[600px] 2xl:ml-20 object-cover"
+              className="relative w-full h-auto xs:h-[300px] sm:h-[350px] md:h-[370px] md:w-[350px] lg:w-[450px] lg:h-[470px] 2xl:w-[600px] 2xl:h-[600px] 2xl:ml-20 object-cover"
             />
 
             {/* Search Button */}
